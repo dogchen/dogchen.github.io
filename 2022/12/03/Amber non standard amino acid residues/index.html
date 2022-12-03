@@ -28,7 +28,7 @@
     
       <meta 
         property="og:url" 
-        content="https://dogchen.github.io/2022/11/03/Amber%20non%20standard%20amino%20acid%20residues/index.html">
+        content="https://dogchen.github.io/2022/12/03/Amber%20non%20standard%20amino%20acid%20residues/index.html">
     
     
       <meta 
@@ -46,7 +46,7 @@
         content="article">
       <meta 
         property="og:article:published_time" 
-        content="2022-11-03">
+        content="2022-12-03">
       <meta 
         property="og:article:modified_time" 
         content="2022-12-03">
@@ -396,12 +396,12 @@
     </h1>
   </header>
   <div class="post-meta post-show-meta">
-    <time datetime="2022-11-03T15:28:17.072Z">
+    <time datetime="2022-12-03T13:24:18.671Z">
       <i 
         class="iconfont icon-calendar" 
         style="margin-right: 2px;">
       </i>
-      <span>2022-11-03</span>
+      <span>2022-12-03</span>
     </time>
     
       <span class="dot"></span>
@@ -415,7 +415,7 @@
     
     
       <span class="dot"></span>
-      <span>852 字</span>
+      <span>879 字</span>
     
   </div>
   
@@ -499,6 +499,9 @@
 <pre class="highlight"><span class="line">source leaprc.protein.ff14SB</span><br><span class="line">source leaprc.water.tip3p</span><br><span class="line">set default PBRadii mbondi3</span><br><span class="line">loadamberprep OLSME.prepin</span><br><span class="line">loadamberparams OLS_gaff.frcmod</span><br><span class="line">loadamberparams parm10_OLS.frcmod</span><br><span class="line">mol = loadpdb Protein.pdb</span><br><span class="line">savepdb mol Protein_H.pdb</span><br><span class="line">saveamberparm mol Protein_dry.prmtop Protein_dry.inpcrd</span><br><span class="line">solvatebox mol TIP3PBOX 12.0</span><br><span class="line">addions mol Na+ 0</span><br><span class="line">addions mol Cl- 0</span><br><span class="line">savepdb mol Protein_solv.pdb</span><br><span class="line">saveamberparm mol Protein_solv.prmtop Protein_solv.inpcrd</span><br><span class="line">quit</span><br></pre>
 <p>运行<code>tleap -s -f tleap.in</code><br>结果：<br><img  srcset="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="/img/20221203_5.png" class="lozad post-image"src="/img/20221203_5.png"><br>查看生成的Protein_H.pdb<br><img  srcset="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="/img/20221203_4.png" class="lozad post-image"src="/img/20221203_4.png"></p>
 <h2 id="生成GROMAC运行文件"><a href="#生成GROMAC运行文件" class="headerlink" title="生成GROMAC运行文件"></a>生成GROMAC运行文件</h2><p><code>acpype -p Protein_solv.prmtop -x Protein_solv.inpcrd -d</code><br>生成一个protein_solv.amb2gmx文件，查看Protein_solv_GMX.gro文件。<br><img  srcset="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="/img/20221203_6.png" class="lozad post-image"src="/img/20221203_6.png"></p>
+<blockquote>
+<p><em><strong>注：如有问题，请发邮件<a href="mailto:&#104;&#97;&#110;&#x6c;&#97;&#x6e;&#56;&#55;&#48;&#50;&#64;&#49;&#x36;&#51;&#x2e;&#99;&#x6f;&#109;">&#104;&#97;&#110;&#x6c;&#97;&#x6e;&#56;&#55;&#48;&#50;&#64;&#49;&#x36;&#51;&#x2e;&#99;&#x6f;&#109;</a></strong></em></p>
+</blockquote>
 
   </div>
   <div>
@@ -518,8 +521,8 @@
           <span style="font-weight: bold;">文章链接：</span><a 
             target="_blank" 
             rel="nofollow noopener noreferrer" 
-            href="https://dogchen.github.io/2022/11/03/Amber%20non%20standard%20amino%20acid%20residues/">
-            https://dogchen.github.io/2022/11/03/Amber%20non%20standard%20amino%20acid%20residues/
+            href="https://dogchen.github.io/2022/12/03/Amber%20non%20standard%20amino%20acid%20residues/">
+            https://dogchen.github.io/2022/12/03/Amber%20non%20standard%20amino%20acid%20residues/
           </a>
         </p>
         <p><span style="font-weight: bold;">版权声明：</span>本博客所有文章除特别声明外，均为个人学习笔记记录。转载请注明出处！</p>
@@ -584,8 +587,8 @@
   <div class="recent-posts-list">
     
       <div class="recent-posts-item">
-        <div class="recent-posts-item-title">2022-11-03</div>
-        <a href="/2022/11/03/Amber%20non%20standard%20amino%20acid%20residues/"><div class="recent-posts-item-content">Amber 非标准氨基酸构建</div></a>
+        <div class="recent-posts-item-title">2022-12-03</div>
+        <a href="/2022/12/03/Amber%20non%20standard%20amino%20acid%20residues/"><div class="recent-posts-item-content">Amber 非标准氨基酸构建</div></a>
       </div>
     
       <div class="recent-posts-item">
